@@ -4,7 +4,8 @@
     {
         static void Main(string[] args)
         {
-            Vazifalar.Vazifa2();
+            Vazifalar.Vazifa3();
+           // Vazifalar.Vazifa2();
            // Vazifalar.Vazifa1();
         }
     }
