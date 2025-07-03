@@ -2,6 +2,43 @@
 
 static class Vazifalar
 {
+    public static void Vazifa4()
+    {
+        Thread thread1 = new Thread(Vazifalar.Vazifa41);
+        Thread thread2 = new Thread(Vazifalar.Vazifa42);
+        Thread thread3 = new Thread(Vazifalar.Vazifa43);
+
+        thread1.Start();
+        thread2.Start();
+        thread3.Start();
+    }
+    static void Vazifa41()
+    {
+        for (int i = 0; i <5;  i++)
+        {
+            Console.Write("=");
+            Thread.Sleep(1000);
+        }
+    }
+    
+    static void Vazifa42()
+    {
+        for(int i = 0;i <5; i++)
+        {
+            Console.Write("=");
+            Thread.Sleep(1200);
+        }
+    }
+    
+    static void Vazifa43()
+    {
+        for( int i = 0;i <5; i++)
+        {
+            Console.Write("=");
+            Thread.Sleep(1300);
+        }
+    }
+
     public static void Vazifa3()
     {
         Thread thread1 = new Thread(Vazifalar.Vazifa31);
